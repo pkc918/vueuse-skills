@@ -20,7 +20,9 @@ npx skills add vueuse/skills
 ```
 
 ## Claude Code Marketplace
+
 An alternative for Claude Code users:
+
 ```
 # Add marketplace
 /plugin marketplace add vueuse/skills

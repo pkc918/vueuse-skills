@@ -5,7 +5,7 @@
       "name": "vueuse-functions",
       "source": "./",
       "description": "A skill for using VueUse composables in Vue.js / Nuxt projects with references for 260+ functions.",
-      "keywords": [ "vueuse", "vue", "composables" ],
+      "keywords": ["vueuse", "vue", "composables"],
       "skills": [
         "./skills/vueuse-functions"
       ]
