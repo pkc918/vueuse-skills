@@ -1,0 +1,21 @@
+{
+  "name": "vueuse-skills",
+  "interface": {
+    "displayName": "VueUse Skills"
+  },
+  "plugins": [
+    {
+      "name": "vueuse-functions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vueuse/skills.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

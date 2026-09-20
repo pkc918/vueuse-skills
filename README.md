@@ -19,6 +19,16 @@ Agent Skills for [VueUse](https://vueuse.org/) — a collection of essential Vue
 npx skills add vueuse/skills
 ```
 
+### Codex Plugin
+
+```bash
+# Add the Codex marketplace
+codex plugin marketplace add vueuse/skills
+
+# Install the plugin
+codex plugin add vueuse-functions@vueuse-skills
+```
+
 ### Claude Code Marketplace
 
 An alternative for Claude Code users:

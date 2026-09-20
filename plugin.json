@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vueuse-functions",
+  "version": "1.0.0",
+  "description": "A skill for using VueUse composables in Vue.js / Nuxt projects with references for 260+ functions.",
+  "author": {
+    "name": "VueUse",
+    "url": "https://github.com/vueuse"
+  },
+  "homepage": "https://github.com/vueuse/skills",
+  "repository": "https://github.com/vueuse/skills",
+  "license": "MIT",
+  "keywords": [
+    "vueuse",
+    "vue",
+    "nuxt",
+    "composables"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "VueUse Functions",
+        "shortDescription": "VueUse composables for Vue",
+        "longDescription": "A skill for using VueUse composables in Vue.js / Nuxt projects with references for 260+ functions.",
+        "developerName": "VueUse",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://vueuse.org/",
+        "defaultPrompt": [
+          "Use VueUse composables in this Vue.js project.",
+          "Prefer VueUse over custom Vue helper code."
+        ]
+      }
+    }
+  }
+}
